@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Amazon_icon.svg/2048px-Amazon_icon.svg.png"/>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Amazon</title>
+</head>
+<script src="https://kit.fontawesome.com/7db0d4d0ec.js" crossorigin="anonymous"></script>
+
+<body>
+    <header class="header">
+        <div class="nav-first">
+            <a href="#" class="logo-container border-white" id="logo-container-id">
+                <div class="logo"></div>
+                <span id="in">.in</span>
+            </a>
+            <div class="top-text"><span id="top-text-id">Hello</span><br>
+                <a href="#" id="top-text-id-2"><i class="fa-solid fa-location-dot fa-beat"></i> Select your Address</a>
+            </div>
+        </div>
+        <div class="search-container" id="search-container-id">
+            <select class="border-white">
+                <option>All</option>
+            </select>
+            <input type="text" id="search-box" placeholder="Search Your Product" onkeyup="search()">
+            <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+
+        </div>
+        <div class="nav-third">
+        <div class="language border-white" id="language-id">
+            <select>
+                <option value="en">EN</option>
+                <option value="hn">HI</option>
+                <option value="fr">FR</option>
+                <option value="sp">SP</option>
+            </select>
+        </div>
+            <div class="accounts border-white">
+                <span>Hello, sign in</span><br>
+                <select>
+                    <option>Account & Lists</option>
+                </select>
+            </div>
+            <span class="border-white" id="returns">Returns<br>& Orders</span>
+            <span class="cart border-white"></span>
+        </div>
+        
+    </header>    
+    <div class="product-list" id="product-list">
+
+        <div class="product">
+            <h1>Blue T-shirt</h1>
+            <h3>₹500</h3>
+        </div>
+        <div class="product">
+            <h1>Red T-shirt</h1>
+            <h3>₹600</h3>
+        </div>
+        <div class="product">
+            <h1>Yellow T-shirt</h1>
+            <h3>₹800</h3>
+        </div>
+        <div class="product">
+            <h1>Maroon T-shirt</h1>
+            <h3>₹500</h3>
+        </div>
+        <div class="product">
+            <h1>Green T-shirt</h1>
+            <h3>₹300</h3>
+        </div>
+        <div class="product">
+            <h1>Blue Sneaker</h1>
+            <h3>₹1100</h3>
+        </div>
+        <div class="product">
+            <h1>Red shirt</h1>
+            <h3>₹500</h3>
+        </div>
+        <div class="product">
+            <h1>Green Hoodie</h1>
+            <h3>₹1000</h3>
+        </div>
+        <div class="product">
+            <h1>Navy Blue Captain Cap</h1>
+            <h3>₹5000</h3>
+        </div>
+        <div class="product">
+            <h1>Legendary Blue pant</h1>
+            <h3>₹2000</h3>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

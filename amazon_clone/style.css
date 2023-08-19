@@ -1,0 +1,138 @@
+/* https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-2x-reorg-celnav._CB590297325_.png */
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    overflow-x: visible;
+}
+
+.border-white{
+    border: 2px solid transparent;
+}
+.border-white:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+.header{
+    display: flex;
+    height: 60px;
+    min-width: 100%;
+}
+
+.nav-first {
+    display: flex;
+    background-color: rgb(19, 25, 33);
+    width: fit-content;
+    height: 60px;
+    justify-content: space-around;
+}
+
+.logo-container{
+    display: flex;
+    text-decoration: none;
+    width: 160px;
+    justify-content: flex-end;
+}
+.logo{
+    background: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-2x-reorg-celnav._CB590297325_.png);
+    width: 139px;
+    height: 60px;
+    background-position-x: -105.5%;
+    background-position-y: 1%;
+    margin-right: -10px;
+
+}
+
+#in{
+    color: aliceblue;
+    height: fit-content;
+    margin-top: 25px;    
+}
+
+.top-text {
+    color: aliceblue;
+    margin: 15px;
+}
+
+#top-text-id-2{
+    color: aliceblue;
+    text-decoration: none;    
+    white-space: nowrap;
+}
+.search-container {
+    display: flex;
+    background-color: rgb(19, 25, 33);
+    align-items: center;    
+}
+
+.search-container input{
+    width: 470px;
+    height: 45px;
+}
+.search-container select{
+    height: 45px;
+}
+.search-container select:hover {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.search-icon {
+    color: rgb(26, 68, 105);
+    background-color: antiquewhite;
+    border: 3px solid yellowgreen;
+    padding-top: 12px;
+    padding-left: 10px;
+    border-radius: 3px;
+    height: 45px;
+    width: 40px;
+}
+
+.nav-third{
+    display: flex;
+    background-color: rgb(19, 25, 33);
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#language-id select{
+    background-color: inherit;
+    border: none;
+    color: aliceblue;
+    font-weight: bold;
+
+}
+
+#language-id option{
+    color: black;
+    font-weight: bold;
+}
+
+.accounts span{
+    padding-left: 5px;
+}
+.accounts,select {
+    background-color: inherit;
+    color: aliceblue;
+}
+.accounts select{
+    border: none;
+    font-weight: bold;
+}
+
+#returns{
+    color: aliceblue;
+    white-space: nowrap;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.cart{
+    background: url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-2x-reorg-celnav._CB590297325_.png);
+    width: 91px;
+    height: 100%;
+    background-position: -10px 110px;
+}
